@@ -1,0 +1,10 @@
+2021-04-14T14:33:43+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\hesco/wp-content/uploads/zn_fonts/Flaticon,C:\wamp64\www\hesco/wp-content/uploads/zn_fonts/Flaticon): The system cannot find the file specified. (code: 2) in C:\wamp64\www\hesco\wp-content\themes\hescokallyastheme\kallyas\framework\zion-builder\hg-framework\inc\icon-manager\class-icon-manager.php:280
+Stack trace:
+#0 C:\wamp64\www\hesco\wp-content\themes\hescokallyastheme\kallyas\framework\zion-builder\hg-framework\inc\icon-manager\class-icon-manager.php(280): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\h...')
+#1 C:\wamp64\www\hesco\wp-content\themes\hescokallyastheme\kallyas\framework\zion-builder\hg-framework\inc\html\fields\upload.php(83): ZnHgFw_IconManager->create_font_archive('Flaticon')
+#2 C:\wamp64\www\hesco\wp-includes\class-wp-hook.php(292): ZnHgFw_Html_Upload->get_download_font_url('')
+#3 C:\wamp64\www\hesco\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\hesc in C:\wamp64\www\hesco\wp-content\themes\hescokallyastheme\kallyas\framework\zion-builder\hg-framework\inc\icon-manager\class-icon-manager.php on line 280
+
+2021-04-14T16:56:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp64\www\hesco\wp-includes\Requests\Transport\cURL.php on line 462
+
